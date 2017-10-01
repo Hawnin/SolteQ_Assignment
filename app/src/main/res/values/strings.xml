@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SolteQ AssignmentV1</string>
+    <string name="dialog_title">Search and Report</string>
+    <string name="dialog_ok">Check boxes for sort and report.</string>
+    <string name="dialog_yes">Proceeding</string>
+    <string name="dialog_cancel">Back to Main Menu</string>
+
+</resources>

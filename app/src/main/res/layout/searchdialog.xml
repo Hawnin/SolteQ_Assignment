@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <CheckBox
+        android:id="@+id/checkBoxName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort by Name" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort by Position" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort by Age" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort by Salary" />
+
+    <CheckBox
+        android:id="@+id/checkBoxReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expected Monthly Salary" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancell" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
+
+</LinearLayout>

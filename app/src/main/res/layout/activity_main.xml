@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="444dp"
+            android:id="@android:id/list"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Add"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/GetAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="List All"
+        android:layout_alignBaseline="@+id/Add"
+        android:layout_alignBottom="@+id/Add"
+        android:layout_toEndOf="@+id/Add"
+        android:layout_marginStart="16dp" />
+    <Button
+        android:id="@+id/SearchAndReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Search and Report"
+        android:layout_alignBaseline="@+id/GetAll"
+        android:layout_alignBottom="@+id/GetAll"
+        android:layout_toEndOf="@+id/GetAll"
+        android:layout_marginStart="16dp" />
+
+</RelativeLayout>

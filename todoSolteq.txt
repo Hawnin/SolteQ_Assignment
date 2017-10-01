@@ -1,0 +1,20 @@
+SolteQ Assignment To do list
+
+Business need:
+Software about employees with information (Database behind it) - done
+-Purpose is reporting and data registry - done
+-Registry: Name, Age, Contact details, Position, Salary, - done
+-Keep track of Salary, Avarage Salary/month spent in company, 
+
+Functionality:
+-Data add,modify,delete thru interface, - done 
+-Search funcionality, Search needs to be sortable for reports 
+-Admin user able to find people with limited information.
+  
+Extra:
+   -export of the data in some generic format
+   -print of the reports
+   -visualization of the data
+   
+Database is recommanded. - done
+
